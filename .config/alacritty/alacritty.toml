@@ -1,0 +1,22 @@
+[window]
+dimensions = { columns = 80, lines = 24 }
+padding = { x = 3, y = 3 }
+dynamic_padding = true
+opacity = 0.9
+decorations_theme_variant = "Dark"
+
+[font]
+size = 14
+
+[colors.primary]
+background = "#000000"
+
+[selection]
+save_to_clipboard = true
+
+[keyboard]
+bindings = [
+  { key = "N", mods = "Command", action = "CreateNewTab" },
+  { key = "N", mods = "Command|Shift", action = "CreateNewWindow" },
+  { key = "N", mods = "Control|Shift", action = "CreateNewWindow" },
+]
