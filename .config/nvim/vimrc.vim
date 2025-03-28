@@ -7,7 +7,7 @@ set relativenumber          " Show line numbers relative to cursor.
 set cursorline              " Highlight current line.
 
 set nowrap                  " Do not wrap long lines (scroll instead).
-set scrolloff=10            " Minimum number of rows to keep around cursor.
+set scrolloff=5             " Minimum number of rows to keep around cursor.
 set sidescrolloff=5         " Minimum number of columns to keep around cursor.
 
 set smartindent             " Do smart autoindenting when starting a new line.
